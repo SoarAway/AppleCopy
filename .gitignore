@@ -5,6 +5,8 @@ node_modules/
 
 # API Keys and Secrets
 src/config/api.js
+src/config/firebase.js
+src/config/sheets.js
 .env
 .env.local
 

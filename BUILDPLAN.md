@@ -32,7 +32,7 @@ A comprehensive mobile expense tracking system that:
 
 ### OCR (Optical Character Recognition)
 - **Google Cloud Vision API** - Free tier: 1,000 requests/month
-- **Tesseract.js** (Fallback) - Completely free, runs on-device
+- **Tesseract.js** - Completely free, runs on-device
 - **expo-image-manipulator** - Image preprocessing for better OCR
 
 ### AI Analysis
