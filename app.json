@@ -1,58 +1,49 @@
 {
-    "expo": {
-        "name": "Smart Expense Tracker",
-        "slug": "smart-expense-tracker",
-        "version": "1.0.0",
-        "orientation": "portrait",
-        "icon": "./assets/icon.png",
-        "userInterfaceStyle": "automatic",
-        "splash": {
-            "image": "./assets/splash.png",
-            "resizeMode": "contain",
-            "backgroundColor": "#ffffff"
-        },
-        "assetBundlePatterns": [
-            "**/*"
-        ],
-        "ios": {
-            "supportsTablet": true,
-            "bundleIdentifier": "com.smartexpensetracker.app",
-            "infoPlist": {
-                "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to detect receipt screenshots.",
-                "NSCameraUsageDescription": "This app needs camera access to capture receipts.",
-                "NSPhotoLibraryAddUsageDescription": "This app needs permission to save processed receipts."
-            }
-        },
-        "android": {
-            "adaptiveIcon": {
-                "foregroundImage": "./assets/adaptive-icon.png",
-                "backgroundColor": "#ffffff"
-            },
-            "package": "com.smartexpensetracker.app",
-            "permissions": [
-                "READ_EXTERNAL_STORAGE",
-                "WRITE_EXTERNAL_STORAGE",
-                "CAMERA",
-                "READ_MEDIA_IMAGES"
-            ]
-        },
-        "web": {
-            "favicon": "./assets/favicon.png"
-        },
-        "plugins": [
-            [
-                "expo-media-library",
-                {
-                    "photosPermission": "Allow Smart Expense Tracker to access your photos to detect receipt screenshots.",
-                    "savePhotosPermission": "Allow Smart Expense Tracker to save processed receipts."
-                }
-            ],
-            [
-                "expo-camera",
-                {
-                    "cameraPermission": "Allow Smart Expense Tracker to use the camera to capture receipts."
-                }
-            ]
-        ]
-    }
+  "expo": {
+    "name": "AppleCopy",
+    "slug": "applecopy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.applecopy.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "This app needs access to your photo library to detect receipt screenshots.",
+        "NSCameraUsageDescription": "This app needs camera access to capture receipts.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs permission to save processed receipts."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.applecopy.app",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA",
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "60ed8534-d9dc-4d00-a784-3368aa8316c4"
+      }
+    },
+    "owner": "aaaworks-organization"
+  }
 }
